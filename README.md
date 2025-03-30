@@ -53,7 +53,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://ideal
 
 ## Acknowledgments
 
-We acknowledge the support from [Your Institution/Organization] and [other relevant bodies/institutions].
+We acknowledge the support from [Alibaba Group] and [Boya Du].
 
 ------
 
