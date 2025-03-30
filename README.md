@@ -10,7 +10,8 @@ project-name/
 ├── data_preprocessing/
 │   └── data_preprocessing.R
 ├── model_training_evaluation/
-│   └── model_training_evaluation.R
+│   └── 1_train_test_split.R
+│		└── 2_model_training_evaluation.R
 ├── model_deployment/
 │   └── model_deployment.R
 ```
@@ -58,3 +59,4 @@ We acknowledge the support from [Alibaba Group] and [Boya Du].
 ------
 
 This structured `README.md` not only provides essential information about your repository but also connects the code and the scientific inquiry addressed in your paper. It facilitates clarity for users, reviewers, and collaborators navigating your repository's components on GitHub.
+
