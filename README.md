@@ -11,9 +11,12 @@ project-name/
 │   └── data_preprocessing.R
 ├── model_training_evaluation/
 │   └── 1_train_test_split.R
-│		└── 2_model_training_evaluation.R
+│   └── 2_model_training_evaluation.R
 ├── model_deployment/
 │   └── model_deployment.R
+│   └── online_xgb_model_year1_survival.pkl
+│   └── online_xgb_model_year3_survival.pkl
+│   └── online_xgb_model_year5_survival.pkl
 ```
 
 ### Modules Overview
@@ -26,7 +29,12 @@ project-name/
    - **Function**: This modules involves the training and tuning of various machine learning models including XGBoost, Logistic Regression (LR), Random Forest (RF), Support Vector Machine (SVM), k-Nearest Neighbors (KNN), and Decision Tree (ID3). It implements cross-validation for hyperparameter optimization and evaluates models using AUC scores for predicting survival in prostate cancer bone metastases.
 3. **Model Deployment** (`model_deployment/`):
    - **Script**: `model_deployment.R`
-   - **Function**: This module is designed to deploy the trained models into a user-friendly application interface using Shiny. The app allows healthcare professionals and researchers to input patient data and obtain survival predictions, explicitly supporting decision-making in clinical settings.
+   - **Function**: This module is designed to deploy the trained models into a user-friendly application interface using Shiny(local deployment). The app allows healthcare professionals and researchers to input patient data and obtain survival predictions, explicitly supporting decision-making in clinical settings.
+
+### Notes
+
+- **Consistency and Reproducibility**: This project spans multiple development cycles. While effort has been made to ensure consistency between implementation and the paper's results, there may be slight discrepancies.
+- **Disclaimer**: The cloud-deployed Streamlit application is intended for research purposes and should not be used as a substitute for professional medical advice. Patients should consult healthcare professionals for clinical decisions.
 
 ## Paper Abstract
 
@@ -35,7 +43,9 @@ In the paper *Interpretable Machine Learning Models for Survival Prediction in P
 ## Requirements
 
 - **R** (version 4.0 or newer)
-- Necessary R packages: `xgboost`, `caret`, `pROC`, `ggplot2`, `shiny`, among others specified within the scripts.
+- **Python** (version 3.7 or newer)
+- **Necessary R packages**: `xgboost`, `caret`, `pROC`, `ggplot2`, `shiny`, among others specified within the scripts.
+- **Necessary Python packages**: `streamlit`, `pandas`, `joblib`, `shap`, `matplotlib`, `seaborn`, among others specified within the scripts.
 
 ## Running the Code
 
