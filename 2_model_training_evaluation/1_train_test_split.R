@@ -3,7 +3,6 @@
 # It includes loading training and test data, splitting data for descriptive statistics,
 # and saving processed datasets. The code utilizes libraries such as readr for CSV reading and caret for data partitioning.
 
-
 # Load necessary libraries
 library(readr)
 library(caret)
