@@ -1,3 +1,8 @@
+# Model Deployment
+
+# This Shiny application predicts survival probabilities for Prostate Cancer Based Metastasis (PCBM) patients using pre-trained XGBoost models for 1-Year, 3-Year, and 5-Year survival. 
+# It accepts user inputs for various medical and demographic variables, performs predictions, and provides a diagnosis recommendation based on the prediction results.
+
 # Load necessary libraries
 library(shiny)
 library(xgboost)
