@@ -41,11 +41,24 @@ project-name/
 In the paper *Interpretable Machine Learning Models for Survival Prediction in Prostate Cancer Bone Metastases*, we explore the implementation and application of interpretable machine learning techniques to predict survival outcomes in patients with prostate cancer bone metastases. By leveraging a combination of state-of-the-art algorithms, our approach aims to enhance predictive accuracy while maintaining interpretability—an essential prerequisite for clinical use.
 
 ## Requirements
-
 - **R** (version 4.0 or newer)
+  - **Necessary R packages**: 
+    - `xgboost` (version 1.4.1.1)
+    - `caret` (version 6.0-88)
+    - `pROC` (version 1.17.0.1)
+    - `ggplot2` (version 3.3.5)
+    - `shiny` (version 1.7.1)
+    - Others specified within the scripts.
+
 - **Python** (version 3.7 or newer)
-- **Necessary R packages**: `xgboost`, `caret`, `pROC`, `ggplot2`, `shiny`, among others specified within the scripts.
-- **Necessary Python packages**: `streamlit`, `pandas`, `joblib`, `shap`, `matplotlib`, `seaborn`, among others specified within the scripts.
+  - **Necessary Python packages**:
+    - `streamlit` (version 0.84.2)
+    - `pandas` (version 1.3.1)
+    - `joblib` (version 1.0.1)
+    - `shap` (version 0.39.0)
+    - `matplotlib` (version 3.4.3)
+    - `seaborn` (version 0.11.2)
+    - Others specified within the scripts.
 
 ## Running the Code
 
