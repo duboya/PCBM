@@ -8,7 +8,7 @@ library(readr)  # For loading CSV
 library(dplyr)  # For data manipulation
 
 # Load the dataset from CSV
-df <- read.csv('/kaggle/input/df-sample-feat-filtered/df_sample_feat_filtered.csv', row.names = 1)
+df <- read.csv('path/to/df_sample_feat_filtered.csv', row.names = 1)
 
 # Function to print feature distribution
 print_feature_distribution <- function(df, column_name) {
