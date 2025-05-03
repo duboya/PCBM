@@ -1,3 +1,8 @@
+# This script is designed to train, evaluate, and save machine learning models using R. 
+
+# It supports multiple algorithms: XGBoost, Logistic Regression, Random Forest, SVM, k-Nearest Neighbors, and Decision Tree (ID3). 
+# The training process includes hyperparameter tuning with cross-validation, and results are evaluated using AUC scores.
+
 # Load necessary libraries
 library(caret)
 library(pROC)
