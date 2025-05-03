@@ -44,7 +44,7 @@ In the paper *Interpretable Machine Learning Models for Survival Prediction in P
 - **R** (version 4.0 or newer)
   - **Necessary R packages**: 
     - `xgboost` (version 1.4.1.1)
-    - `caret` (version 6.0-88)
+    - `caret` (version 7.0-1)
     - `pROC` (version 1.17.0.1)
     - `ggplot2` (version 3.3.5)
     - `shiny` (version 1.7.1)
